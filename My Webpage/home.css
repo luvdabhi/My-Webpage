@@ -1,0 +1,82 @@
+body {
+    background-image:url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1{
+    text-align: center;
+    color: rgb(6, 48, 102);
+}
+
+.headshot{
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+
+h2{
+    text-align: center;
+}
+.quote{
+    text-align: center;
+    margin: auto; 
+}
+h4{
+    color: rgb(6, 48, 102);
+}
+span{
+    color: red; 
+    font-weight: bold;
+}
+
+table{
+    margin: auto;
+    text-align:center;
+    width:35%
+   
+}
+
+tr{
+    margin:auto;
+    text-align: center;
+}
+th,td{
+    text-align:center;
+
+}
+
+tr:nth-child(odd) {
+    background-color: lightcoral;
+}
+
+tr:nth-child(even) {
+    background-color: ivory;
+}
+
+h3{
+    text-align: left;
+    color: rgb(117, 20, 20);
+}
+.lists {
+    float: left;
+    width: 25%;
+    height: 210px;
+    background-color: coral;
+}
+
+
+hr{
+    width: 100%;
+    size: 10px;
+    background-color:darkblue;
+    height:5px;
+    text-align: center;
+
+}
+
+.toplinks{
+    text-align: center;
+    margin: auto;
+}
